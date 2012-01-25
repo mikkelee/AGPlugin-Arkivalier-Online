@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0D77CA14D048C600AF885A /* AOGetImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77A714D048C600AF885A /* AOGetImageResponse.m */; };
+		3E0D77CB14D048C600AF885A /* AOService1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77A914D048C600AF885A /* AOService1.m */; };
+		3E0D77CC14D048C600AF885A /* AOServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77AB14D048C600AF885A /* AOServices.m */; };
+		3E0D77CD14D048C600AF885A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77AE14D048C600AF885A /* NSData+Base64.m */; };
+		3E0D77CE14D048C600AF885A /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B014D048C600AF885A /* NSMutableArray+Soap.m */; };
+		3E0D77CF14D048C600AF885A /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B214D048C600AF885A /* Soap.m */; };
+		3E0D77D014D048C600AF885A /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B414D048C600AF885A /* SoapArray.m */; };
+		3E0D77D114D048C600AF885A /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B714D048C600AF885A /* SoapFault.m */; };
+		3E0D77D214D048C600AF885A /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B914D048C600AF885A /* SoapHandler.m */; };
+		3E0D77D314D048C600AF885A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BB14D048C600AF885A /* SoapLiteral.m */; };
+		3E0D77D414D048C600AF885A /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BD14D048C600AF885A /* SoapNil.m */; };
+		3E0D77D514D048C600AF885A /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BF14D048C600AF885A /* SoapObject.m */; };
+		3E0D77D614D048C600AF885A /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C114D048C600AF885A /* SoapParameter.m */; };
+		3E0D77D714D048C600AF885A /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C314D048C600AF885A /* SoapReachability.m */; };
+		3E0D77D814D048C600AF885A /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C514D048C600AF885A /* SoapRequest.m */; };
+		3E0D77D914D048C600AF885A /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C714D048C600AF885A /* SoapService.m */; };
+		3E0D77DA14D048C600AF885A /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C914D048C600AF885A /* Soap+Prefix.m */; };
+		3E0D77E214D04C1200AF885A /* AOWebViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58F7C114C83555004B6DFE /* AOWebViewWindow.m */; };
+		3E0D77E714D04D5600AF885A /* AOWebViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58F7C114C83555004B6DFE /* AOWebViewWindow.m */; };
+		3E0D77E814D04D5D00AF885A /* AOGetImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77A714D048C600AF885A /* AOGetImageResponse.m */; };
+		3E0D77E914D04D5D00AF885A /* AOService1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77A914D048C600AF885A /* AOService1.m */; };
+		3E0D77EA14D04D6000AF885A /* AOServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77AB14D048C600AF885A /* AOServices.m */; };
+		3E0D77EB14D04D6000AF885A /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C914D048C600AF885A /* Soap+Prefix.m */; };
+		3E0D77EC14D04D6C00AF885A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77AE14D048C600AF885A /* NSData+Base64.m */; };
+		3E0D77ED14D04D6C00AF885A /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B014D048C600AF885A /* NSMutableArray+Soap.m */; };
+		3E0D77EE14D04D6C00AF885A /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B214D048C600AF885A /* Soap.m */; };
+		3E0D77EF14D04D6C00AF885A /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B414D048C600AF885A /* SoapArray.m */; };
+		3E0D77F014D04D6C00AF885A /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B714D048C600AF885A /* SoapFault.m */; };
+		3E0D77F114D04D6C00AF885A /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77B914D048C600AF885A /* SoapHandler.m */; };
+		3E0D77F214D04D6C00AF885A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BB14D048C600AF885A /* SoapLiteral.m */; };
+		3E0D77F314D04D7900AF885A /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BD14D048C600AF885A /* SoapNil.m */; };
+		3E0D77F414D04D7900AF885A /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77BF14D048C600AF885A /* SoapObject.m */; };
+		3E0D77F514D04D7900AF885A /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C114D048C600AF885A /* SoapParameter.m */; };
+		3E0D77F614D04D7900AF885A /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C314D048C600AF885A /* SoapReachability.m */; };
+		3E0D77F714D04D7900AF885A /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C514D048C600AF885A /* SoapRequest.m */; };
+		3E0D77F814D04D7900AF885A /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D77C714D048C600AF885A /* SoapService.m */; };
+		3E0D77F914D04EE600AF885A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58F79E14C81A84004B6DFE /* WebKit.framework */; };
+		3E58F6BF14C09AEB004B6DFE /* AOWebViewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E58F6C114C09AEB004B6DFE /* AOWebViewWindow.xib */; };
+		3E58F6CB14C09C1F004B6DFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E58F6C914C09C1F004B6DFE /* Localizable.strings */; };
+		3E58F7A014C81AA3004B6DFE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58F79E14C81A84004B6DFE /* WebKit.framework */; };
+		3E58F7C314C83556004B6DFE /* AOWebViewWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E58F7C214C83556004B6DFE /* AOWebViewWindow.h */; };
+		3E78336F14C0744C0027B418 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78336E14C0744C0027B418 /* Cocoa.framework */; };
+		3E78337914C0744C0027B418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E78337714C0744C0027B418 /* InfoPlist.strings */; };
+		3E78338D14C074790027B418 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78338C14C074790027B418 /* SenTestingKit.framework */; };
+		3E78338E14C074790027B418 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78336E14C0744C0027B418 /* Cocoa.framework */; };
+		3E78339414C074790027B418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E78339214C074790027B418 /* InfoPlist.strings */; };
+		3E78339714C074790027B418 /* Arkivalier_Online_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78339614C074790027B418 /* Arkivalier_Online_Tests.m */; };
+		3E7833C614C074FD0027B418 /* AOPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78339D14C074FD0027B418 /* AOPlugin.m */; };
+		3E7833D914C074FD0027B418 /* AOSoapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7833C514C074FD0027B418 /* AOSoapDelegate.m */; };
+		3E7833DC14C075390027B418 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7833DB14C075390027B418 /* SystemConfiguration.framework */; };
+		3E7833E314C076270027B418 /* AOPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78339D14C074FD0027B418 /* AOPlugin.m */; };
+		3E7833E414C0762A0027B418 /* AOSoapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7833C514C074FD0027B418 /* AOSoapDelegate.m */; };
+		3E7833FB14C0795F0027B418 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7833DB14C075390027B418 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7833DE14C075B80027B418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E78336214C0744C0027B418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E78336A14C0744C0027B418;
+			remoteInfo = "Arkivalier Online";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0D77A614D048C600AF885A /* AOGetImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOGetImageResponse.h; sourceTree = "<group>"; };
+		3E0D77A714D048C600AF885A /* AOGetImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOGetImageResponse.m; sourceTree = "<group>"; };
+		3E0D77A814D048C600AF885A /* AOService1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOService1.h; sourceTree = "<group>"; };
+		3E0D77A914D048C600AF885A /* AOService1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOService1.m; sourceTree = "<group>"; };
+		3E0D77AA14D048C600AF885A /* AOServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOServices.h; sourceTree = "<group>"; };
+		3E0D77AB14D048C600AF885A /* AOServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOServices.m; sourceTree = "<group>"; };
+		3E0D77AD14D048C600AF885A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3E0D77AE14D048C600AF885A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3E0D77AF14D048C600AF885A /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		3E0D77B014D048C600AF885A /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		3E0D77B114D048C600AF885A /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		3E0D77B214D048C600AF885A /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		3E0D77B314D048C600AF885A /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		3E0D77B414D048C600AF885A /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		3E0D77B514D048C600AF885A /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		3E0D77B614D048C600AF885A /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		3E0D77B714D048C600AF885A /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		3E0D77B814D048C600AF885A /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		3E0D77B914D048C600AF885A /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		3E0D77BA14D048C600AF885A /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		3E0D77BB14D048C600AF885A /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		3E0D77BC14D048C600AF885A /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		3E0D77BD14D048C600AF885A /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		3E0D77BE14D048C600AF885A /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		3E0D77BF14D048C600AF885A /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		3E0D77C014D048C600AF885A /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		3E0D77C114D048C600AF885A /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		3E0D77C214D048C600AF885A /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		3E0D77C314D048C600AF885A /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		3E0D77C414D048C600AF885A /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		3E0D77C514D048C600AF885A /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		3E0D77C614D048C600AF885A /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		3E0D77C714D048C600AF885A /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		3E0D77C814D048C600AF885A /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		3E0D77C914D048C600AF885A /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		3E0D77FA14D04FE000AF885A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E0D77FB14D04FE500AF885A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E58F6C014C09AEB004B6DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AOWebViewWindow.xib; sourceTree = "<group>"; };
+		3E58F6CA14C09C1F004B6DFE /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3E58F6CC14C09C28004B6DFE /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3E58F79E14C81A84004B6DFE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3E58F7C114C83555004B6DFE /* AOWebViewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AOWebViewWindow.m; path = "Arkivalier Online/AOWebViewWindow.m"; sourceTree = SOURCE_ROOT; };
+		3E58F7C214C83556004B6DFE /* AOWebViewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AOWebViewWindow.h; path = "Arkivalier Online/AOWebViewWindow.h"; sourceTree = SOURCE_ROOT; };
+		3E78336B14C0744C0027B418 /* Arkivalier Online.agplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arkivalier Online.agplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E78336E14C0744C0027B418 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E78337114C0744C0027B418 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E78337214C0744C0027B418 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E78337314C0744C0027B418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E78337614C0744C0027B418 /* Arkivalier Online-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arkivalier Online-Info.plist"; sourceTree = "<group>"; };
+		3E78337814C0744C0027B418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E78337A14C0744C0027B418 /* Arkivalier Online-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arkivalier Online-Prefix.pch"; sourceTree = "<group>"; };
+		3E78338B14C074790027B418 /* Arkivalier Online Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arkivalier Online Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E78338C14C074790027B418 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E78339114C074790027B418 /* Arkivalier Online Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Arkivalier Online Tests-Info.plist"; path = "Arkivalier Online Tests/Arkivalier Online Tests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3E78339314C074790027B418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E78339614C074790027B418 /* Arkivalier_Online_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Arkivalier_Online_Tests.m; path = "Arkivalier Online Tests/Arkivalier_Online_Tests.m"; sourceTree = SOURCE_ROOT; };
+		3E78339814C074790027B418 /* Arkivalier Online Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Arkivalier Online Tests-Prefix.pch"; path = "Arkivalier Online Tests/Arkivalier Online Tests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3E78339C14C074FD0027B418 /* AOPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AOPlugin.h; path = "Arkivalier Online/AOPlugin.h"; sourceTree = SOURCE_ROOT; };
+		3E78339D14C074FD0027B418 /* AOPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AOPlugin.m; path = "Arkivalier Online/AOPlugin.m"; sourceTree = SOURCE_ROOT; };
+		3E7833C414C074FD0027B418 /* AOSoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AOSoapDelegate.h; path = "Arkivalier Online/AOSoapDelegate.h"; sourceTree = SOURCE_ROOT; };
+		3E7833C514C074FD0027B418 /* AOSoapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AOSoapDelegate.m; path = "Arkivalier Online/AOSoapDelegate.m"; sourceTree = SOURCE_ROOT; };
+		3E7833DA14C075180027B418 /* AGPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGPluginProtocol.h; path = "../../Assertive Genealogy/AGPluginProtocol.h"; sourceTree = SOURCE_ROOT; };
+		3E7833DB14C075390027B418 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E78336814C0744C0027B418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E78336F14C0744C0027B418 /* Cocoa.framework in Frameworks */,
+				3E58F7A014C81AA3004B6DFE /* WebKit.framework in Frameworks */,
+				3E7833DC14C075390027B418 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E78338714C074790027B418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0D77F914D04EE600AF885A /* WebKit.framework in Frameworks */,
+				3E7833FB14C0795F0027B418 /* SystemConfiguration.framework in Frameworks */,
+				3E78338D14C074790027B418 /* SenTestingKit.framework in Frameworks */,
+				3E78338E14C074790027B418 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0D77A514D048C600AF885A /* AOSoap */ = {
+			isa = PBXGroup;
+			children = (
+				3E0D77A614D048C600AF885A /* AOGetImageResponse.h */,
+				3E0D77A714D048C600AF885A /* AOGetImageResponse.m */,
+				3E0D77A814D048C600AF885A /* AOService1.h */,
+				3E0D77A914D048C600AF885A /* AOService1.m */,
+				3E0D77AA14D048C600AF885A /* AOServices.h */,
+				3E0D77AB14D048C600AF885A /* AOServices.m */,
+				3E0D77AC14D048C600AF885A /* Soap */,
+				3E0D77C814D048C600AF885A /* Soap+Prefix.h */,
+				3E0D77C914D048C600AF885A /* Soap+Prefix.m */,
+			);
+			name = AOSoap;
+			path = "Arkivalier Online/AOSoap";
+			sourceTree = SOURCE_ROOT;
+		};
+		3E0D77AC14D048C600AF885A /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				3E0D77AD14D048C600AF885A /* NSData+Base64.h */,
+				3E0D77AE14D048C600AF885A /* NSData+Base64.m */,
+				3E0D77AF14D048C600AF885A /* NSMutableArray+Soap.h */,
+				3E0D77B014D048C600AF885A /* NSMutableArray+Soap.m */,
+				3E0D77B114D048C600AF885A /* Soap.h */,
+				3E0D77B214D048C600AF885A /* Soap.m */,
+				3E0D77B314D048C600AF885A /* SoapArray.h */,
+				3E0D77B414D048C600AF885A /* SoapArray.m */,
+				3E0D77B514D048C600AF885A /* SoapDelegate.h */,
+				3E0D77B614D048C600AF885A /* SoapFault.h */,
+				3E0D77B714D048C600AF885A /* SoapFault.m */,
+				3E0D77B814D048C600AF885A /* SoapHandler.h */,
+				3E0D77B914D048C600AF885A /* SoapHandler.m */,
+				3E0D77BA14D048C600AF885A /* SoapLiteral.h */,
+				3E0D77BB14D048C600AF885A /* SoapLiteral.m */,
+				3E0D77BC14D048C600AF885A /* SoapNil.h */,
+				3E0D77BD14D048C600AF885A /* SoapNil.m */,
+				3E0D77BE14D048C600AF885A /* SoapObject.h */,
+				3E0D77BF14D048C600AF885A /* SoapObject.m */,
+				3E0D77C014D048C600AF885A /* SoapParameter.h */,
+				3E0D77C114D048C600AF885A /* SoapParameter.m */,
+				3E0D77C214D048C600AF885A /* SoapReachability.h */,
+				3E0D77C314D048C600AF885A /* SoapReachability.m */,
+				3E0D77C414D048C600AF885A /* SoapRequest.h */,
+				3E0D77C514D048C600AF885A /* SoapRequest.m */,
+				3E0D77C614D048C600AF885A /* SoapService.h */,
+				3E0D77C714D048C600AF885A /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		3E78336014C0744C0027B418 = {
+			isa = PBXGroup;
+			children = (
+				3E78337414C0744C0027B418 /* Arkivalier Online */,
+				3E78338F14C074790027B418 /* Arkivalier Online Tests */,
+				3E78336D14C0744C0027B418 /* Frameworks */,
+				3E78336C14C0744C0027B418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E78336C14C0744C0027B418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E78336B14C0744C0027B418 /* Arkivalier Online.agplugin */,
+				3E78338B14C074790027B418 /* Arkivalier Online Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E78336D14C0744C0027B418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E58F79E14C81A84004B6DFE /* WebKit.framework */,
+				3E7833DB14C075390027B418 /* SystemConfiguration.framework */,
+				3E78336E14C0744C0027B418 /* Cocoa.framework */,
+				3E78338C14C074790027B418 /* SenTestingKit.framework */,
+				3E78337014C0744C0027B418 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E78337014C0744C0027B418 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E78337114C0744C0027B418 /* AppKit.framework */,
+				3E78337214C0744C0027B418 /* CoreData.framework */,
+				3E78337314C0744C0027B418 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E78337414C0744C0027B418 /* Arkivalier Online */ = {
+			isa = PBXGroup;
+			children = (
+				3E7833DA14C075180027B418 /* AGPluginProtocol.h */,
+				3E78339C14C074FD0027B418 /* AOPlugin.h */,
+				3E78339D14C074FD0027B418 /* AOPlugin.m */,
+				3E7833C414C074FD0027B418 /* AOSoapDelegate.h */,
+				3E7833C514C074FD0027B418 /* AOSoapDelegate.m */,
+				3E58F7C214C83556004B6DFE /* AOWebViewWindow.h */,
+				3E58F7C114C83555004B6DFE /* AOWebViewWindow.m */,
+				3E58F6C114C09AEB004B6DFE /* AOWebViewWindow.xib */,
+				3E0D77A514D048C600AF885A /* AOSoap */,
+				3E78337514C0744C0027B418 /* Supporting Files */,
+			);
+			path = "Arkivalier Online";
+			sourceTree = "<group>";
+		};
+		3E78337514C0744C0027B418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E58F6C914C09C1F004B6DFE /* Localizable.strings */,
+				3E78337614C0744C0027B418 /* Arkivalier Online-Info.plist */,
+				3E78337714C0744C0027B418 /* InfoPlist.strings */,
+				3E78337A14C0744C0027B418 /* Arkivalier Online-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E78338F14C074790027B418 /* Arkivalier Online Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E78339614C074790027B418 /* Arkivalier_Online_Tests.m */,
+				3E78339014C074790027B418 /* Supporting Files */,
+			);
+			path = "Arkivalier Online Tests";
+			sourceTree = "<group>";
+		};
+		3E78339014C074790027B418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E78339114C074790027B418 /* Arkivalier Online Tests-Info.plist */,
+				3E78339214C074790027B418 /* InfoPlist.strings */,
+				3E78339814C074790027B418 /* Arkivalier Online Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E78336A14C0744C0027B418 /* Arkivalier Online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E78337D14C0744C0027B418 /* Build configuration list for PBXNativeTarget "Arkivalier Online" */;
+			buildPhases = (
+				3E78336714C0744C0027B418 /* Sources */,
+				3E78336814C0744C0027B418 /* Frameworks */,
+				3E78336914C0744C0027B418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arkivalier Online";
+			productName = "Arkivalier Online";
+			productReference = 3E78336B14C0744C0027B418 /* Arkivalier Online.agplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3E78338A14C074790027B418 /* Arkivalier Online Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E78339914C074790027B418 /* Build configuration list for PBXNativeTarget "Arkivalier Online Tests" */;
+			buildPhases = (
+				3E78338614C074790027B418 /* Sources */,
+				3E78338714C074790027B418 /* Frameworks */,
+				3E78338814C074790027B418 /* Resources */,
+				3E78338914C074790027B418 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7833DF14C075B80027B418 /* PBXTargetDependency */,
+			);
+			name = "Arkivalier Online Tests";
+			productName = "Arkivalier Online Tests";
+			productReference = 3E78338B14C074790027B418 /* Arkivalier Online Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E78336214C0744C0027B418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mikkel Eide Eriksen";
+			};
+			buildConfigurationList = 3E78336514C0744C0027B418 /* Build configuration list for PBXProject "Arkivalier Online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+			);
+			mainGroup = 3E78336014C0744C0027B418;
+			productRefGroup = 3E78336C14C0744C0027B418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E78336A14C0744C0027B418 /* Arkivalier Online */,
+				3E78338A14C074790027B418 /* Arkivalier Online Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E78336914C0744C0027B418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E78337914C0744C0027B418 /* InfoPlist.strings in Resources */,
+				3E58F6BF14C09AEB004B6DFE /* AOWebViewWindow.xib in Resources */,
+				3E58F6CB14C09C1F004B6DFE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E78338814C074790027B418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E78339414C074790027B418 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E78338914C074790027B418 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E78336714C0744C0027B418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7833C614C074FD0027B418 /* AOPlugin.m in Sources */,
+				3E7833D914C074FD0027B418 /* AOSoapDelegate.m in Sources */,
+				3E58F7C314C83556004B6DFE /* AOWebViewWindow.h in Sources */,
+				3E0D77CA14D048C600AF885A /* AOGetImageResponse.m in Sources */,
+				3E0D77CB14D048C600AF885A /* AOService1.m in Sources */,
+				3E0D77CC14D048C600AF885A /* AOServices.m in Sources */,
+				3E0D77CD14D048C600AF885A /* NSData+Base64.m in Sources */,
+				3E0D77CE14D048C600AF885A /* NSMutableArray+Soap.m in Sources */,
+				3E0D77CF14D048C600AF885A /* Soap.m in Sources */,
+				3E0D77D014D048C600AF885A /* SoapArray.m in Sources */,
+				3E0D77D114D048C600AF885A /* SoapFault.m in Sources */,
+				3E0D77D214D048C600AF885A /* SoapHandler.m in Sources */,
+				3E0D77D314D048C600AF885A /* SoapLiteral.m in Sources */,
+				3E0D77D414D048C600AF885A /* SoapNil.m in Sources */,
+				3E0D77D514D048C600AF885A /* SoapObject.m in Sources */,
+				3E0D77D614D048C600AF885A /* SoapParameter.m in Sources */,
+				3E0D77D714D048C600AF885A /* SoapReachability.m in Sources */,
+				3E0D77D814D048C600AF885A /* SoapRequest.m in Sources */,
+				3E0D77D914D048C600AF885A /* SoapService.m in Sources */,
+				3E0D77DA14D048C600AF885A /* Soap+Prefix.m in Sources */,
+				3E0D77E214D04C1200AF885A /* AOWebViewWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E78338614C074790027B418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E78339714C074790027B418 /* Arkivalier_Online_Tests.m in Sources */,
+				3E7833E314C076270027B418 /* AOPlugin.m in Sources */,
+				3E7833E414C0762A0027B418 /* AOSoapDelegate.m in Sources */,
+				3E0D77E714D04D5600AF885A /* AOWebViewWindow.m in Sources */,
+				3E0D77E814D04D5D00AF885A /* AOGetImageResponse.m in Sources */,
+				3E0D77E914D04D5D00AF885A /* AOService1.m in Sources */,
+				3E0D77EA14D04D6000AF885A /* AOServices.m in Sources */,
+				3E0D77EB14D04D6000AF885A /* Soap+Prefix.m in Sources */,
+				3E0D77EC14D04D6C00AF885A /* NSData+Base64.m in Sources */,
+				3E0D77ED14D04D6C00AF885A /* NSMutableArray+Soap.m in Sources */,
+				3E0D77EE14D04D6C00AF885A /* Soap.m in Sources */,
+				3E0D77EF14D04D6C00AF885A /* SoapArray.m in Sources */,
+				3E0D77F014D04D6C00AF885A /* SoapFault.m in Sources */,
+				3E0D77F114D04D6C00AF885A /* SoapHandler.m in Sources */,
+				3E0D77F214D04D6C00AF885A /* SoapLiteral.m in Sources */,
+				3E0D77F314D04D7900AF885A /* SoapNil.m in Sources */,
+				3E0D77F414D04D7900AF885A /* SoapObject.m in Sources */,
+				3E0D77F514D04D7900AF885A /* SoapParameter.m in Sources */,
+				3E0D77F614D04D7900AF885A /* SoapReachability.m in Sources */,
+				3E0D77F714D04D7900AF885A /* SoapRequest.m in Sources */,
+				3E0D77F814D04D7900AF885A /* SoapService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7833DF14C075B80027B418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E78336A14C0744C0027B418 /* Arkivalier Online */;
+			targetProxy = 3E7833DE14C075B80027B418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E58F6C114C09AEB004B6DFE /* AOWebViewWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E58F6C014C09AEB004B6DFE /* en */,
+			);
+			name = AOWebViewWindow.xib;
+			path = "Arkivalier Online";
+			sourceTree = SOURCE_ROOT;
+		};
+		3E58F6C914C09C1F004B6DFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E58F6CA14C09C1F004B6DFE /* en */,
+				3E58F6CC14C09C28004B6DFE /* da */,
+			);
+			name = Localizable.strings;
+			path = "Arkivalier Online";
+			sourceTree = SOURCE_ROOT;
+		};
+		3E78337714C0744C0027B418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E78337814C0744C0027B418 /* en */,
+				3E0D77FA14D04FE000AF885A /* da */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E78339214C074790027B418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E78339314C074790027B418 /* en */,
+				3E0D77FB14D04FE500AF885A /* da */,
+			);
+			name = InfoPlist.strings;
+			path = "Arkivalier Online Tests";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E78337B14C0744C0027B418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /Developer/usr/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-l/Developer/usr/lib/libprofile_rt.dylib",
+					"-fprofile-arcs",
+					"-ftest-coverage",
+				);
+				OTHER_LDFLAGS = "-lprofile_rt";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E78337C14C0744C0027B418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /Developer/usr/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-l/Developer/usr/lib/libprofile_rt.dylib",
+					"-fprofile-arcs",
+					"-ftest-coverage",
+				);
+				OTHER_LDFLAGS = "-lprofile_rt";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E78337E14C0744C0027B418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arkivalier Online/Arkivalier Online-Prefix.pch";
+				INFOPLIST_FILE = "Arkivalier Online/Arkivalier Online-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = agplugin;
+			};
+			name = Debug;
+		};
+		3E78337F14C0744C0027B418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arkivalier Online/Arkivalier Online-Prefix.pch";
+				INFOPLIST_FILE = "Arkivalier Online/Arkivalier Online-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = agplugin;
+			};
+			name = Release;
+		};
+		3E78339A14C074790027B418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arkivalier Online Tests/Arkivalier Online Tests-Prefix.pch";
+				INFOPLIST_FILE = "Arkivalier Online Tests/Arkivalier Online Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E78339B14C074790027B418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arkivalier Online Tests/Arkivalier Online Tests-Prefix.pch";
+				INFOPLIST_FILE = "Arkivalier Online Tests/Arkivalier Online Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E78336514C0744C0027B418 /* Build configuration list for PBXProject "Arkivalier Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E78337B14C0744C0027B418 /* Debug */,
+				3E78337C14C0744C0027B418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E78337D14C0744C0027B418 /* Build configuration list for PBXNativeTarget "Arkivalier Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E78337E14C0744C0027B418 /* Debug */,
+				3E78337F14C0744C0027B418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E78339914C074790027B418 /* Build configuration list for PBXNativeTarget "Arkivalier Online Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E78339A14C074790027B418 /* Debug */,
+				3E78339B14C074790027B418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E78336214C0744C0027B418 /* Project object */;
+}

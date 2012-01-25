@@ -1,0 +1,15 @@
+﻿/* Cancel */
+"cancel" = "Annullér";
+
+/* Go to website... */
+"go to website" = "Åben hjemmeside...";
+
+/* Open file... */
+"open file" = "Åben fil...";
+
+/* Please select one or more ViewImage file(s) from Arkivalier Online */
+"select file" = "Vælg venligst en eller flere ViewImage-fil(er) fra Arkivalier Online";
+
+/* Obtain a fresh source from the website, or open one already downloaded? */
+"website or download" = "Hent en frisk kilde fra hjemmesiden eller åben een du allerede har downloadet?";
+

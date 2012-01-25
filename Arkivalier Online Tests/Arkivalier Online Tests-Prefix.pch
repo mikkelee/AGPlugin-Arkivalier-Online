@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Arkivalier Online Tests' target in the 'Arkivalier Online Tests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
